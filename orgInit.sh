@@ -22,8 +22,8 @@ sfdx automig:load -d demo-data/ --concise --mappingobjects RecordType:DeveloperN
 #create EA apps
 #sfdx analytics:app:create --templatename Sustainability
 #sfdx analytics:app:create --templatename Sustainability_Audit -a
-sfdx analytics:app:create -f assets/SustainabilityEADef.json
-sfdx analytics:app:create -f assets/SustainAuditEADef.json 
+sfdx analytics:app:create -f assets/Sustainability-EA.json
+sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json 
 
 # alrighty lets push source - i have to wait bc of the analytics embedded dash on the home page
 sfdx force:source:push
