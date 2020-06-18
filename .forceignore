@@ -8,10 +8,6 @@ package.xml
 **wave
 **contentassets
 
-#exclude other directories 
-**appMenus
-**aura
-
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
