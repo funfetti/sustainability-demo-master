@@ -67,10 +67,10 @@
     <tabs>sustain_app__EmissionFactorElectricity__c</tabs>
     <tabs>sustain_app__EmissionFactorOther__c</tabs>
     <tabs>sustain_app__EmissionFactorScope3__c</tabs>
-    <tabs>standard-WaveHomeLightning</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sustainability_Cloud_Lightning_Console_UtilityBar</utilityBar>
     <workspaceConfig>

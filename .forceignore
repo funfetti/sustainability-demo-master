@@ -5,8 +5,8 @@
 package.xml
 
 # exclude EA
-**wave
-**contentassets
+#**wave
+#**contentassets
 
 #exclude other directories 
 **appMenus
