@@ -20,8 +20,8 @@ sfdx shane:user:permset:assign -l User -g Integration -n SustainabilityAnalytics
 sfdx automig:load -d demo-data/ --concise --mappingobjects RecordType:DeveloperName,sustain_app__EmissionFactorElectricity__c:Name,sustain_app__EmissionFactorOther__c:Name,sustain_app__EmissionFactorScope3__c:Name
 
 #create EA apps
-sfdx analytics:app:create -m Sustainability
-sfdx analytics:app:create -m Sustainability_Audit -a
+sfdx analytics:app:create --templatename Sustainability
+sfdx analytics:app:create --templatename Sustainability_Audit -a
 
 # alrighty lets push source - i have to wait bc of the analytics embedded dash on the home page
 sfdx force:source:push
