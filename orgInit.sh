@@ -27,3 +27,6 @@ sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json
 
 # alrighty lets push source - i have to wait bc of the analytics embedded dash on the home page
 sfdx force:source:push
+
+# open sesame
+sfdx force:org:open -p /lightning/app/c__Sustainability_Demo_Console
