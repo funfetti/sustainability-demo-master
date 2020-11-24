@@ -1,7 +1,18 @@
-sfdx force:org:create -f config/project-scratch-def.json -s 
+#!/usr/bin/env bash
 
-# install 1.10
-sfdx force:package:install -p 04t3k000001yv66AAA -w 20 
+# run chmod u+x orgInit.sh
+# to actually execute: bash orgInit.sh
+#
+# get alias from user 
+echo "this is a 1.11 sustainability scratch. name your org:"
+read sname
+
+echo "your org alias is $sname"
+echo creating your scratch org... 
+sfdx force:org:create -f config/project-scratch-def.json -s -a $sname
+
+# install 1.12.0
+sfdx force:package:install -p 04t3k000000iy8qAAA -w 20 
 
 # PSL/Perms 
 # using shane's plugins https://github.com/mshanemc/shane-sfdx-plugins
@@ -22,11 +33,11 @@ sfdx automig:load -d demo-data/ --concise --mappingobjects RecordType:DeveloperN
 #create EA apps
 #sfdx analytics:app:create --templatename Sustainability
 #sfdx analytics:app:create --templatename Sustainability_Audit -a
-sfdx analytics:app:create -f assets/Sustainability-EA.json
-sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json 
+#sfdx analytics:app:create -f assets/Sustainability-EA.json
+#sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json 
 
 # alrighty lets push source - i have to wait bc of the analytics embedded dash on the home page
-sfdx force:source:push
+#sfdx force:source:push
 
 # open sesame
-sfdx force:org:open -p /lightning/app/c__Sustainability_Demo_Console
+sfdx force:org:open 
