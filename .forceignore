@@ -4,16 +4,17 @@
 
 package.xml
 
-# exclude EA
-**wave
-
-#exclude other directories 
-**appMenus
-**aura
-
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
 
 # LWC Jest
 **/__tests__/**
+
+# exclude EA
+**wave
+
+# profiles
+**/Custom%3A Marketing Profile.profile-meta.xml
+**/Custom%3A Sales Profile.profile-meta.xml
+**/Custom%3A Support Profile.profile-meta.xml

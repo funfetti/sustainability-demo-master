@@ -1,7 +1,7 @@
 {
-  "orgName": "Sustainability Cloud",
+  "orgName": "Sustainability Cloud Demo",
   "edition": "Developer",
-  "adminEmail": "sehdemo+sfdx@gmail.com",
+  "description": "Sustainability Cloud Demo Master v1.14",
   "features": [
     "DevelopmentWave",
     "SustainabilityCloud"
@@ -9,11 +9,6 @@
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
-    },
-    "securitySettings": {
-        "passwordPolicies": {
-            "enableSetPasswordInApi": true
-        }
     },
     "mobileSettings": {
         "enableS1EncryptedStoragePref2": false
