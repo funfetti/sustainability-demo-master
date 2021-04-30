@@ -1,0 +1,92 @@
+{
+    "objects": [
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__Contact_Notes__c, sustain_app__Department__c, sustain_app__Email__c, sustain_app__Phone__c, sustain_app__Title__c FROM sustain_app__Contact__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__SustainabilityAsset__c, sustain_app__SustainabilityContact__c, Id, Name, sustain_app__Order__c FROM sustain_app__AssetContact__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__Allocation_Status__c, sustain_app__AuditApprovalStatus__c, sustain_app__Extrapolation_Status__c, sustain_app__Occupied_Building_Floor_Area_Unit__c, sustain_app__ReportBoundary__c, sustain_app__ReportEndDate__c, sustain_app__ReportStartDate__c, sustain_app__ReportingYear__c, sustain_app__Reporting_Date__c, sustain_app__Stage__c, sustain_app__TotalAllocatedRenewableEnergykWh__c, sustain_app__TotalBuildingFloorAreaUnit__c, sustain_app__Travel_Type__c, sustain_app__Vehicle_Type__c, sustain_app__Asset__c, sustain_app__CBECs_Reference_Data__c, sustain_app__Carbon_Source_Approver__c, sustain_app__GlobalAnnualMetrics__c, sustain_app__PY_Annual_Consumption_Report__c, sustain_app__ServiceProvider__c, Id, Name, RecordTypeId, sustain_app__Scope3DisableProcurementRollups__c FROM sustain_app__ConsumptionReport__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__ConsumptionReport__c, sustain_app__EnergyConsumption__c, Id, Name, sustain_app__UniqueInventoryId__c FROM sustain_app__ConsumptionReportItem__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__Finished__c, sustain_app__JSON_Gap_Data__c, sustain_app__JSON_Model_Data__c, sustain_app__JSON_Overlap_Data__c, sustain_app__JSON_Saved_Data__c, sustain_app__Model_Name__c, sustain_app__Updated_Report_Date__c, sustain_app__ConsumptionReport__c FROM sustain_app__Data_Gap_Filling_Log__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__Data_Source__c, sustain_app__EconomicSectorCategory__c, sustain_app__EconomicSectorCode__c, sustain_app__EconomicSector__c, sustain_app__Total_tCO2e_per_Million__c, sustain_app__EmissionFactorScope3Dataset__c, Id, Name, RecordTypeId, sustain_app__GhgScope3Category__c FROM sustain_app__EmissionFactorScope3__c WHERE RecordType.Name = 'EEIO'"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__Currency__c, sustain_app__Description__c, sustain_app__EmissionFactorsCountMatched__c, sustain_app__EmissionFactorsCount__c, sustain_app__IsComplete__c, sustain_app__Year__c FROM sustain_app__EmissionFactorScope3Dataset__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__Contract_Type__c, sustain_app__Renewable_Energy_Project_Type__c, sustain_app__SustainabilityServiceProvider__c FROM sustain_app__Contract__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__Aircraft_Fuel_Economy_Unit__c, sustain_app__Aircraft_Fuel_Economy_Value__c, sustain_app__Aircraft_Type__c, sustain_app__AllocatedRenewableEnergykWh__c, sustain_app__Amount__c, sustain_app__Annual_Fuel_Used_Unit__c, sustain_app__Annual_Fuel_Used_Value__c, sustain_app__BusinessDistance__c, sustain_app__Car_Type_Code__c, sustain_app__Carrier_Name__c, sustain_app__Cost_Center__c, sustain_app__Currency__c, sustain_app__Departure_Date__c, sustain_app__DistanceUnit__c, sustain_app__Drop_Off_Date__c, sustain_app__EndDate__c, sustain_app__ExpenseType__c, sustain_app__Flight_Date__c, sustain_app__Flight_Hours__c, sustain_app__Fuel_Efficiency_Unit__c, sustain_app__Fuel_Efficiency_Value__c, sustain_app__HotelCountry__c, sustain_app__Hotel_Chain_Name__c, sustain_app__Hotel_City__c, sustain_app__Mobile_Fuel_Type__c, sustain_app__Month_Year__c, sustain_app__NumberOfNights__c, sustain_app__NumberOfRooms__c, sustain_app__Occupied_Building_Floor_Area_Unit__c, sustain_app__Pickup_Date__c, sustain_app__Proposed_Consumption_Value__c, sustain_app__Renewable_Energy_Project_Name__c, sustain_app__RentalCarCompanyCode__c, sustain_app__RentalCarCompanyName__c, sustain_app__Reported_PUE__c, sustain_app__Segment_Carrier_Name__c, sustain_app__Segment_Destination_Airport_Name__c, sustain_app__Segment_Destination_Country_Name__c, sustain_app__Segment_Destination_Region_Name__c, sustain_app__Segment_Distance_Unit__c, sustain_app__Segment_Distance__c, sustain_app__Segment_Origin_Airport_Name__c, sustain_app__Segment_Origin_Country_Name__c, sustain_app__Segment_Origin_Region_Name__c, sustain_app__StartDate__c, sustain_app__TotalBuildingFloorAreaUnit__c, sustain_app__Total_Distance_Traveled_Unit__c, sustain_app__Total_Distance_Traveled__c, sustain_app__Transaction_Date__c, sustain_app__Traveler_Full_Name__c, sustain_app__Trip_Name__c, sustain_app__TypeOfRenewableEnergyProject__c, sustain_app__Unit_Cooling_Consumption__c, sustain_app__Unit_Diesel_Consumption__c, sustain_app__Unit_Electricity_Consumption__c, sustain_app__Unit_Fuel_Oil_Consumption__c, sustain_app__Unit_Heat_Consumption__c, sustain_app__Unit_IT_Electricity_Consumption__c, sustain_app__Unit_Natural_Gas_Consumption__c, sustain_app__Unit_Propane_Consumption__c, sustain_app__Unit_Steam_Consumption__c, sustain_app__Value_Cooling_Consumption__c, sustain_app__Value_Diesel_Consumption__c, sustain_app__Value_Electricity_Consumption__c, sustain_app__Value_Fuel_Oil_Consumption__c, sustain_app__Value_Heat_Consumption__c, sustain_app__Value_IT_Electricity_Consumption__c, sustain_app__Value_Natural_Gas_Consumption__c, sustain_app__Value_Propane_Consumption__c, sustain_app__Value_Steam_Consumption__c, sustain_app__VendorName__c, sustain_app__Asset_Contact__c, sustain_app__Asset__c, sustain_app__Contract__c, sustain_app__Data_Gap_Filling_Log__c, sustain_app__ElectricityEmissionFactor__c, sustain_app__EmissionFactorScope3__c, sustain_app__Other_Emission_Factor__c, sustain_app__Refrigerant_GWP_Factor__c, sustain_app__ServiceProvider__c, Id, Name, RecordTypeId FROM sustain_app__EnergyConsumption__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__ConsumptionReport__c, sustain_app__EnergyConsumption__c, Id, Name, sustain_app__Extrapolation_Approach__c, sustain_app__Field_Name__c, sustain_app__Include_in_Total_Extrapolated_Energy__c, sustain_app__New_Value__c, sustain_app__Old_Value__c FROM sustain_app__ExtrapolationLog__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__AveragePUE__c, sustain_app__Reporting_Year__c FROM sustain_app__Global_Annual_Metrics__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT Id, Name, sustain_app__CalendarYear__c, sustain_app__Currency__c, sustain_app__DataSource__c, sustain_app__InflationRateKey__c, sustain_app__InflationRate__c FROM sustain_app__InflationRate__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__AssetType__c, sustain_app__BusinessRegion__c, sustain_app__CBECSDivision__c, sustain_app__City__c, sustain_app__Country__c, sustain_app__Description__c, sustain_app__FacilityId__c, sustain_app__GreenBuildingCertified__c, sustain_app__GridSubregion__c, sustain_app__LeaseExpirationDate__c, sustain_app__LeaseID__c, sustain_app__Occupied_Building_Floor_Area_Unit__c, sustain_app__Occupied_Building_Floor_Area__c, sustain_app__Occupied_Building_Floor_Area_m2__c, sustain_app__Occupied_Rented_Floor_Area__c, sustain_app__OwnedAsset__c, sustain_app__State__c, sustain_app__StreetAddress2__c, sustain_app__StreetAddress__c, sustain_app__TotalBuildingFloorAreaUnit__c, sustain_app__TotalBuildingFloorArea__c, sustain_app__Total_Building_Floor_Area__c, sustain_app__VehicleID__c, sustain_app__ZipCode__c, sustain_app__ParentAsset__c, Id, Name, RecordTypeId FROM sustain_app__Asset__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__CarbonFootprint__c, sustain_app__EmissionFactorScope3Dataset__c, Id, Name, sustain_app__CalendarYear__c, sustain_app__Currency__c, sustain_app__Description__c, sustain_app__InflationRateCalculated__c, sustain_app__InflationRateOverride__c, sustain_app__IsComplete__c FROM sustain_app__ProcurementDataset__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__EmissionFactorScope3__c, sustain_app__ServiceProvider__c, sustain_app__ProcurementDataset__c, Id, Name, sustain_app__GhgScope3Category__c, sustain_app__Scope3EmissionsOverride__c, sustain_app__SpendingCategory1__c, sustain_app__SpendingCategory2__c, sustain_app__SpendingCategory3__c, sustain_app__SpentAmount__c, sustain_app__SpentDate__c FROM sustain_app__ProcurementEntry__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__RenewableEnergyProjectName__c, sustain_app__TypeOfRenewableEnergyProject__c, sustain_app__Contact__c, Id, Name FROM sustain_app__ServiceProvider__c"
+        },
+        {
+            "operation": "Upsert",
+            "externalId": "Name",
+            "query": "SELECT sustain_app__AveragingWindowEndDate__c, sustain_app__AveragingWindowStartDate__c, sustain_app__BuildingAssetType__c, sustain_app__BusinessRegion__c, sustain_app__Country__c, sustain_app__IncludeSystemGenerated__c, sustain_app__State__c, sustain_app__BuildingSizeCategory__c, sustain_app__CensusDivision__c, Id, Name, RecordTypeId, sustain_app__MinimumBuildingSizeM2__c, sustain_app__MinimumBuildingSizeSqft__c FROM sustain_app__BuildingEnergyIntensity__c"
+        }
+    ],
+    "promptOnMissingParentObjects": false,
+    "promptOnIssuesInCSVFiles": false,
+    "apiVersion": "51.0"
+}

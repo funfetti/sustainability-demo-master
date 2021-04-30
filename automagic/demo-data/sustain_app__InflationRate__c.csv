@@ -1,0 +1,127 @@
+Id,Name,sustain_app__CalendarYear__c,sustain_app__Currency__c,sustain_app__DataSource__c,sustain_app__InflationRateKey__c,sustain_app__InflationRate__c
+a0J1g0000044uFhEAI,IR-0112,2007,JPY,Based on annual CPI change since prior year,JPY-2007,0.06
+a0J1g0000044uFiEAI,IR-0113,2008,JPY,Based on annual CPI change since prior year,JPY-2008,1.3801
+a0J1g0000044uFjEAI,IR-0114,2009,JPY,Based on annual CPI change since prior year,JPY-2009,-1.3528
+a0J1g0000044uFkEAI,IR-0115,2010,JPY,Based on annual CPI change since prior year,JPY-2010,-0.72
+a0J1g0000044uFlEAI,IR-0116,2011,JPY,Based on annual CPI change since prior year,JPY-2011,-0.2676
+a0J1g0000044uFmEAI,IR-0117,2012,JPY,Based on annual CPI change since prior year,JPY-2012,-0.0519
+a0J1g0000044uFnEAI,IR-0118,2013,JPY,Based on annual CPI change since prior year,JPY-2013,0.3464
+a0J1g0000044uFoEAI,IR-0119,2014,JPY,Based on annual CPI change since prior year,JPY-2014,2.762
+a0J1g0000044uFpEAI,IR-0120,2015,JPY,Based on annual CPI change since prior year,JPY-2015,0.7895
+a0J1g0000044uFqEAI,IR-0121,2016,JPY,Based on annual CPI change since prior year,JPY-2016,-0.1167
+a0J1g0000044uFrEAI,IR-0122,2017,JPY,Based on annual CPI change since prior year,JPY-2017,0.4672
+a0J1g0000044uFsEAI,IR-0123,2018,JPY,Based on annual CPI change since prior year,JPY-2018,0.9799
+a0J1g0000044uFtEAI,IR-0124,2019,JPY,Based on annual CPI change since prior year,JPY-2019,0.477
+a0J1g0000044uFuEAI,IR-0125,2020,JPY,Based on annual CPI change since prior year,JPY-2020,0
+a0J1g0000044uFgEAI,IR-0111,2006,JPY,Based on annual CPI change since prior year,JPY-2006,0.2494
+a0J1g0000044uDtEAI,IR-0000,2000,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2000,3.3769
+a0J1g0000044uDuEAI,IR-0001,2001,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2001,2.8262
+a0J1g0000044uDvEAI,IR-0002,2002,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2002,1.586
+a0J1g0000044uDwEAI,IR-0003,2003,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2003,2.2701
+a0J1g0000044uDxEAI,IR-0004,2004,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2004,2.6772
+a0J1g0000044uDzEAI,IR-0006,2006,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2006,3.2259
+a0J1g0000044uE0EAI,IR-0007,2007,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2007,2.8527
+a0J1g0000044uE1EAI,IR-0008,2008,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2008,3.8391
+a0J1g0000044uE2EAI,IR-0009,2009,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2009,-0.3555
+a0J1g0000044uE3EAI,IR-0010,2010,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2010,1.64
+a0J1g0000044uE4EAI,IR-0011,2011,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2011,3.1568
+a0J1g0000044uE5EAI,IR-0012,2012,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2012,2.0693
+a0J1g0000044uE6EAI,IR-0013,2013,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2013,1.4648
+a0J1g0000044uE7EAI,IR-0014,2014,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2014,1.6222
+a0J1g0000044uE8EAI,IR-0015,2015,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2015,0.1186
+a0J1g0000044uE9EAI,IR-0016,2016,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2016,1.2616
+a0J1g0000044uEAEAY,IR-0017,2017,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2017,2.1301
+a0J1g0000044uEBEAY,IR-0018,2018,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2018,2.4426
+a0J1g0000044uECEAY,IR-0019,2019,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2019,1.8122
+a0J1g0000044uEDEAY,IR-0020,2020,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2020,1.2336
+a0J1g0000044uEEEAY,IR-0021,2000,EUR,Based on annual CPI change since prior year,EUR-2000,2.1046
+a0J1g0000044uEFEAY,IR-0022,2001,EUR,Based on annual CPI change since prior year,EUR-2001,2.35
+a0J1g0000044uEGEAY,IR-0023,2002,EUR,Based on annual CPI change since prior year,EUR-2002,2.2319
+a0J1g0000044uEHEAY,IR-0024,2003,EUR,Based on annual CPI change since prior year,EUR-2003,2.0954
+a0J1g0000044uEIEAY,IR-0025,2004,EUR,Based on annual CPI change since prior year,EUR-2004,2.1384
+a0J1g0000044uDyEAI,IR-0005,2005,USD,Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/,USD-2005,3.3927
+a0J1g0000044uEJEAY,IR-0026,2005,EUR,Based on annual CPI change since prior year,EUR-2005,2.1778
+a0J1g0000044uEKEAY,IR-0027,2006,EUR,Based on annual CPI change since prior year,EUR-2006,2.1785
+a0J1g0000044uELEAY,IR-0028,2007,EUR,Based on annual CPI change since prior year,EUR-2007,2.1436
+a0J1g0000044uEMEAY,IR-0029,2008,EUR,Based on annual CPI change since prior year,EUR-2008,3.272
+a0J1g0000044uENEAY,IR-0030,2009,EUR,Based on annual CPI change since prior year,EUR-2009,0.295
+a0J1g0000044uEOEAY,IR-0031,2010,EUR,Based on annual CPI change since prior year,EUR-2010,1.6122
+a0J1g0000044uEPEAY,IR-0032,2011,EUR,Based on annual CPI change since prior year,EUR-2011,2.7123
+a0J1g0000044uEQEAY,IR-0033,2012,EUR,Based on annual CPI change since prior year,EUR-2012,2.505
+a0J1g0000044uEREAY,IR-0034,2013,EUR,Based on annual CPI change since prior year,EUR-2013,1.3542
+a0J1g0000044uESEAY,IR-0035,2014,EUR,Based on annual CPI change since prior year,EUR-2014,0.432
+a0J1g0000044uETEAY,IR-0036,2015,EUR,Based on annual CPI change since prior year,EUR-2015,0.03
+a0J1g0000044uEUEAY,IR-0037,2016,EUR,Based on annual CPI change since prior year,EUR-2016,0.24
+a0J1g0000044uEVEAY,IR-0038,2017,EUR,Based on annual CPI change since prior year,EUR-2017,1.5363
+a0J1g0000044uEXEAY,IR-0040,2019,EUR,Based on annual CPI change since prior year,EUR-2019,1.2071
+a0J1g0000044uEYEAY,IR-0041,2020,EUR,Based on annual CPI change since prior year,EUR-2020,0.2481
+a0J1g0000044uEZEAY,IR-0042,2000,CAD,Based on annual CPI change since prior year,CAD-2000,2.7194
+a0J1g0000044uEaEAI,IR-0043,2001,CAD,Based on annual CPI change since prior year,CAD-2001,2.5251
+a0J1g0000044uEbEAI,IR-0044,2002,CAD,Based on annual CPI change since prior year,CAD-2002,2.2584
+a0J1g0000044uEcEAI,IR-0045,2003,CAD,Based on annual CPI change since prior year,CAD-2003,2.7586
+a0J1g0000044uEdEAI,IR-0046,2004,CAD,Based on annual CPI change since prior year,CAD-2004,1.8573
+a0J1g0000044uEeEAI,IR-0047,2005,CAD,Based on annual CPI change since prior year,CAD-2005,2.2136
+a0J1g0000044uEfEAI,IR-0048,2006,CAD,Based on annual CPI change since prior year,CAD-2006,2.002
+a0J1g0000044uEgEAI,IR-0049,2007,CAD,Based on annual CPI change since prior year,CAD-2007,2.1384
+a0J1g0000044uEhEAI,IR-0050,2008,CAD,Based on annual CPI change since prior year,CAD-2008,2.3703
+a0J1g0000044uEiEAI,IR-0051,2009,CAD,Based on annual CPI change since prior year,CAD-2009,0.2995
+a0J1g0000044uEjEAI,IR-0052,2010,CAD,Based on annual CPI change since prior year,CAD-2010,1.7769
+a0J1g0000044uEkEAI,IR-0053,2011,CAD,Based on annual CPI change since prior year,CAD-2011,2.9121
+a0J1g0000044uElEAI,IR-0054,2012,CAD,Based on annual CPI change since prior year,CAD-2012,1.5157
+a0J1g0000044uEmEAI,IR-0055,2013,CAD,Based on annual CPI change since prior year,CAD-2013,0.9383
+a0J1g0000044uEnEAI,IR-0056,2014,CAD,Based on annual CPI change since prior year,CAD-2014,1.9066
+a0J1g0000044uEoEAI,IR-0057,2015,CAD,Based on annual CPI change since prior year,CAD-2015,1.1252
+a0J1g0000044uEpEAI,IR-0058,2016,CAD,Based on annual CPI change since prior year,CAD-2016,1.4288
+a0J1g0000044uEqEAI,IR-0059,2017,CAD,Based on annual CPI change since prior year,CAD-2017,1.5969
+a0J1g0000044uEWEAY,IR-0039,2018,EUR,Based on annual CPI change since prior year,EUR-2018,1.739
+a0J1g0000044uErEAI,IR-0060,2018,CAD,Based on annual CPI change since prior year,CAD-2018,2.2682
+a0J1g0000044uEsEAI,IR-0061,2019,CAD,Based on annual CPI change since prior year,CAD-2019,1.9493
+a0J1g0000044uEtEAI,IR-0062,2020,CAD,Based on annual CPI change since prior year,CAD-2020,0.7353
+a0J1g0000044uEuEAI,IR-0063,2000,NZD,Based on annual CPI change since prior year,NZD-2000,3.1508
+a0J1g0000044uEvEAI,IR-0064,2001,NZD,Based on annual CPI change since prior year,NZD-2001,3.374
+a0J1g0000044uEwEAI,IR-0065,2002,NZD,Based on annual CPI change since prior year,NZD-2002,2.4244
+a0J1g0000044uExEAI,IR-0066,2003,NZD,Based on annual CPI change since prior year,NZD-2003,2.092
+a0J1g0000044uEyEAI,IR-0067,2004,NZD,Based on annual CPI change since prior year,NZD-2004,2.2862
+a0J1g0000044uEzEAI,IR-0068,2005,NZD,Based on annual CPI change since prior year,NZD-2005,2.4877
+a0J1g0000044uF0EAI,IR-0069,2006,NZD,Based on annual CPI change since prior year,NZD-2006,2.6663
+a0J1g0000044uF1EAI,IR-0070,2007,NZD,Based on annual CPI change since prior year,NZD-2007,2.5107
+a0J1g0000044uF2EAI,IR-0071,2008,NZD,Based on annual CPI change since prior year,NZD-2008,4.165
+a0J1g0000044uF3EAI,IR-0072,2009,NZD,Based on annual CPI change since prior year,NZD-2009,0.8393
+a0J1g0000044uF4EAI,IR-0073,2010,NZD,Based on annual CPI change since prior year,NZD-2010,1.5311
+a0J1g0000044uF5EAI,IR-0074,2011,NZD,Based on annual CPI change since prior year,NZD-2011,3.2894
+a0J1g0000044uF7EAI,IR-0076,2013,NZD,Based on annual CPI change since prior year,NZD-2013,1.22
+a0J1g0000044uF8EAI,IR-0077,2014,NZD,Based on annual CPI change since prior year,NZD-2014,0.1993
+a0J1g0000044uF9EAI,IR-0078,2015,NZD,Based on annual CPI change since prior year,NZD-2015,-0.0616
+a0J1g0000044uFAEAY,IR-0079,2016,NZD,Based on annual CPI change since prior year,NZD-2016,0.1833
+a0J1g0000044uFBEAY,IR-0080,2017,NZD,Based on annual CPI change since prior year,NZD-2017,1.4291
+a0J1g0000044uFCEAY,IR-0081,2018,NZD,Based on annual CPI change since prior year,NZD-2018,1.7386
+a0J1g0000044uFDEAY,IR-0082,2019,NZD,Based on annual CPI change since prior year,NZD-2019,1.6305
+a0J1g0000044uFEEAY,IR-0083,2020,NZD,Based on annual CPI change since prior year,NZD-2020,1.7096
+a0J1g0000044uFFEAY,IR-0084,2000,AUD,Based on annual CPI change since prior year,AUD-2000,4.4574
+a0J1g0000044uFGEAY,IR-0085,2001,AUD,Based on annual CPI change since prior year,AUD-2001,4.4071
+a0J1g0000044uFHEAY,IR-0086,2002,AUD,Based on annual CPI change since prior year,AUD-2002,2.9816
+a0J1g0000044uFIEAY,IR-0087,2003,AUD,Based on annual CPI change since prior year,AUD-2003,2.7326
+a0J1g0000044uFJEAY,IR-0088,2004,AUD,Based on annual CPI change since prior year,AUD-2004,2.3433
+a0J1g0000044uFKEAY,IR-0089,2005,AUD,Based on annual CPI change since prior year,AUD-2005,2.6918
+a0J1g0000044uFLEAY,IR-0090,2006,AUD,Based on annual CPI change since prior year,AUD-2006,3.5553
+a0J1g0000044uFMEAY,IR-0091,2007,AUD,Based on annual CPI change since prior year,AUD-2007,2.3276
+a0J1g0000044uFNEAY,IR-0092,2008,AUD,Based on annual CPI change since prior year,AUD-2008,4.3503
+a0J1g0000044uFOEAY,IR-0093,2009,AUD,Based on annual CPI change since prior year,AUD-2009,1.7711
+a0J1g0000044uFPEAY,IR-0094,2010,AUD,Based on annual CPI change since prior year,AUD-2010,2.9183
+a0J1g0000044uFQEAY,IR-0095,2011,AUD,Based on annual CPI change since prior year,AUD-2011,3.3039
+a0J1g0000044uF6EAI,IR-0075,2012,NZD,Based on annual CPI change since prior year,NZD-2012,2.6628
+a0J1g0000044uFREAY,IR-0096,2012,AUD,Based on annual CPI change since prior year,AUD-2012,1.7628
+a0J1g0000044uFSEAY,IR-0097,2013,AUD,Based on annual CPI change since prior year,AUD-2013,2.4499
+a0J1g0000044uFTEAY,IR-0098,2014,AUD,Based on annual CPI change since prior year,AUD-2014,2.4879
+a0J1g0000044uFUEAY,IR-0099,2015,AUD,Based on annual CPI change since prior year,AUD-2015,1.5084
+a0J1g0000044uFVEAY,IR-0100,2016,AUD,Based on annual CPI change since prior year,AUD-2016,1.277
+a0J1g0000044uFWEAY,IR-0101,2017,AUD,Based on annual CPI change since prior year,AUD-2017,1.9486
+a0J1g0000044uFXEAY,IR-0102,2018,AUD,Based on annual CPI change since prior year,AUD-2018,1.9114
+a0J1g0000044uFYEAY,IR-0103,2019,AUD,Based on annual CPI change since prior year,AUD-2019,1.6108
+a0J1g0000044uFZEAY,IR-0104,2020,AUD,Based on annual CPI change since prior year,AUD-2020,0.8688
+a0J1g0000044uFaEAI,IR-0105,2000,JPY,Based on annual CPI change since prior year,JPY-2000,-0.6766
+a0J1g0000044uFbEAI,IR-0106,2001,JPY,Based on annual CPI change since prior year,JPY-2001,-0.7401
+a0J1g0000044uFcEAI,IR-0107,2002,JPY,Based on annual CPI change since prior year,JPY-2002,-0.9235
+a0J1g0000044uFdEAI,IR-0108,2003,JPY,Based on annual CPI change since prior year,JPY-2003,-0.2565
+a0J1g0000044uFeEAI,IR-0109,2004,JPY,Based on annual CPI change since prior year,JPY-2004,-0.0086
+a0J1g0000044uFfEAI,IR-0110,2005,JPY,Based on annual CPI change since prior year,JPY-2005,-0.2829
