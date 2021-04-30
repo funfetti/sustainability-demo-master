@@ -18,6 +18,24 @@
         <type>Flexipage</type>
         <pageOrSobjectType>sustain_app__ConsumptionReport__c</pageOrSobjectType>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Procurement_Dataset1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>sustain_app__ProcurementDataset__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Procurement_Dataset1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>sustain_app__ProcurementDataset__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#042E61</headerColor>
         <logo>iconsustainConsole</logo>
