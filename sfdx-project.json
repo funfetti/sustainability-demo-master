@@ -5,6 +5,10 @@
       "default": false
     },
     {
+      "path": "base-wave",
+      "default": false
+    },
+    {
       "path": "base-demo",
       "default": true
     }

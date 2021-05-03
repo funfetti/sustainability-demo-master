@@ -29,9 +29,9 @@ sfdx shane:user:permset:assign -l User -g Integration -n SustainabilityAnalytics
 
 #load data 
 
-#create EA apps
-#sfdx analytics:app:create --templatename Sustainability
-#sfdx analytics:app:create --templatename Sustainability_Audit -a
+#create tableau crm apps
+sfdx analytics:app:create -t sustain_app__Sustainability -n ClimateAction
+sfdx analytics:app:create -t sustain_app__Sustainability_Audit -n SustainabilityAudit
 #sfdx analytics:app:create -f assets/Sustainability-EA.json
 #sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json 
 
@@ -40,3 +40,7 @@ sfdx shane:user:permset:assign -l User -g Integration -n SustainabilityAnalytics
 
 # open sesame
 # sfdx force:org:open 
+
+## for sandboxes 
+## sfdx force:org:deploy -u tfdevbox -p force-app
+## sfdx force:org:deploy -u tfdevbox -p base-demo
