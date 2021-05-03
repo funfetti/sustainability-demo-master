@@ -9,15 +9,17 @@ To grab the ootb page layouts I need to
 
 3. build the package manifest to grab all the relevant layouts, record types, and the Admin profile (I used [viganesh/sfdx-package-generator](https://github.com/vignaesh01/sfdx-package-generator)) and store in **sustain-package.xml**
 
-4. retrieve the files from the scratch
+4. unfortunately it doesn’t quite put the namespace in correctly into the xml file so i had to fix all the page layout names. it’ll pull `namepace__Object__c-fieldname.layout.meta.xml` but it should be `namespace__Object__c-**namespace__**fieldname.layout.meta.xml`
+
+5. retrieve the files from the scratch
 `sfdx force:mdapi:retrieve -r mdapi -k sustain-package.xml`
 
-5. convert mdapi to source
+6. convert mdapi to source
 `sfdx force:mdapi:convert -r mdapi/unpackaged/layouts -d force-app`
 
-6. Clean up **Admin-profile-meta.xml** (keep only the layoutAssignments) and make a copy here so when I pull source I don't have to redo all of this again
+7. Clean up **Admin-profile-meta.xml** (keep only the layoutAssignments) and make a copy here so when I pull source I don't have to redo all of this again
 
-7. Push to scratch
+8. Push to scratch
 
 currently Admin-profile-meta.xml is up to date for 1.14
   
