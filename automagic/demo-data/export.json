@@ -13,7 +13,7 @@
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query": "SELECT sustain_app__Allocation_Status__c, sustain_app__AuditApprovalStatus__c, sustain_app__Extrapolation_Status__c, sustain_app__Occupied_Building_Floor_Area_Unit__c, sustain_app__ReportBoundary__c, sustain_app__ReportEndDate__c, sustain_app__ReportStartDate__c, sustain_app__ReportingYear__c, sustain_app__Reporting_Date__c, sustain_app__Stage__c, sustain_app__TotalAllocatedRenewableEnergykWh__c, sustain_app__TotalBuildingFloorAreaUnit__c, sustain_app__Travel_Type__c, sustain_app__Vehicle_Type__c, sustain_app__Asset__c, sustain_app__CBECs_Reference_Data__c, sustain_app__Carbon_Source_Approver__c, sustain_app__GlobalAnnualMetrics__c, sustain_app__PY_Annual_Consumption_Report__c, sustain_app__ServiceProvider__c, Id, Name, RecordTypeId, sustain_app__Scope3DisableProcurementRollups__c FROM sustain_app__ConsumptionReport__c"
+            "query": "SELECT sustain_app__Allocation_Status__c, sustain_app__AuditApprovalStatus__c, sustain_app__Extrapolation_Status__c, sustain_app__Occupied_Building_Floor_Area_Unit__c, sustain_app__ReportBoundary__c, sustain_app__ReportEndDate__c, sustain_app__ReportStartDate__c, sustain_app__ReportingYear__c, sustain_app__Reporting_Date__c, sustain_app__Scope3DisableProcurementRollups__c, sustain_app__Stage__c, sustain_app__TotalAllocatedRenewableEnergykWh__c, sustain_app__TotalBuildingFloorAreaUnit__c, sustain_app__Travel_Type__c, sustain_app__Vehicle_Type__c, sustain_app__Asset__c, sustain_app__CBECs_Reference_Data__c, sustain_app__Carbon_Source_Approver__c, sustain_app__GlobalAnnualMetrics__c, sustain_app__PY_Annual_Consumption_Report__c, sustain_app__ServiceProvider__c, Id, Name, RecordTypeId, sustain_app__BuildingEnergyIntensity__c, sustain_app__CBECSIntensityRecord__c FROM sustain_app__ConsumptionReport__c"
         },
         {
             "operation": "Upsert",
@@ -28,7 +28,7 @@
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query": "SELECT sustain_app__Data_Source__c, sustain_app__EconomicSectorCategory__c, sustain_app__EconomicSectorCode__c, sustain_app__EconomicSector__c, sustain_app__Total_tCO2e_per_Million__c, sustain_app__EmissionFactorScope3Dataset__c, Id, Name, RecordTypeId, sustain_app__GhgScope3Category__c FROM sustain_app__EmissionFactorScope3__c WHERE RecordType.Name = 'EEIO'"
+            "query": "SELECT sustain_app__Data_Source__c, sustain_app__EconomicSectorCategory__c, sustain_app__EconomicSectorCode__c, sustain_app__EconomicSector__c, sustain_app__GhgScope3Category__c, sustain_app__Total_tCO2e_per_Million__c, sustain_app__EmissionFactorScope3Dataset__c, Id, Name, RecordTypeId FROM sustain_app__EmissionFactorScope3__c WHERE RecordType.Name = 'EEIO'"
         },
         {
             "operation": "Upsert",

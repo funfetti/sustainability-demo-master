@@ -18,6 +18,7 @@ sfdx force:org:create -f config/project-scratch-def.json -s -a $sname
 # sfdx shane:user:psl -l User -g User -n InsightsInboxAdminAnalyticsPsl
 
 # install 1.14.0
+# echo "installing sustainability cloud"
 sfdx force:package:install -p 04t3k0000027CZ1AAM -w 20 
 
 sfdx force:user:permset:assign -n SustainabilityCloud
@@ -28,15 +29,15 @@ sfdx force:user:permset:assign -n EventMonitoringWaveAdmin
 sfdx shane:user:permset:assign -l User -g Integration -n SustainabilityAnalytics
 
 #load data 
+# echo "loading data... this could take a minute"
+# sfdx sfdmu:run --sourceusername csvfile --targetusername $sname -p automagic/demo-data --verbose
 
 #create tableau crm apps
 sfdx analytics:app:create -t sustain_app__Sustainability -n ClimateAction
 sfdx analytics:app:create -t sustain_app__Sustainability_Audit -n SustainabilityAudit
-#sfdx analytics:app:create -f assets/Sustainability-EA.json
-#sfdx analytics:app:create -f assets/SustainabilityAudit-EA.json 
 
 # alrighty lets push source - i have to wait bc of the analytics embedded dash on the home page
-#sfdx force:source:push
+sfdx force:source:push
 
 # open sesame
 # sfdx force:org:open 

@@ -1,2 +1,2 @@
 Id,sustain_app__CarbonFootprint__c,sustain_app__EmissionFactorScope3Dataset__c,Name,sustain_app__CalendarYear__c,sustain_app__Currency__c,sustain_app__Description__c,sustain_app__InflationRateCalculated__c,sustain_app__InflationRateOverride__c,sustain_app__IsComplete__c,sustain_app__CarbonFootprint__r.Name,sustain_app__EmissionFactorScope3Dataset__r.Name
-a0L1g000001RJ4cEAG,a081g0000045KAmAAM,a0E1g000004Gh1XEAS,US Operations Spend CY21,2020,USD,,11.098193860544558,,false,Global Ops Spend FY21,USEEIO Dataset v1.2  - Validated
+a0L1g000001RJ4cEAG,a081g0000045KAmAAM,a0E1g000004Gh1XEAS,US Operations Spend CY21,2020,USD,extract from procurement system,11.098193860544558,,false,Global Ops Spend FY21,USEEIO Dataset v1.2  - Validated

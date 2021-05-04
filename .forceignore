@@ -11,8 +11,72 @@ package.xml
 # LWC Jest
 **/__tests__/**
 
-# exclude EA
-# **wave
+# exclude EA dashes and related assets --- might need these for scratch but maybe not?? 
+**/wave
+astro_leafpng1.asset
+astro_leafpng.asset-meta.xml
+astroandeinstein_in_flightpng.asset
+astroandeinstein_in_flightpng.asset-meta.xml
+borderpng.asset
+borderpng.asset-meta.xml
+Consumptionbuttonactivepng.asset
+Consumptionbuttonactivepng.asset-meta.xml
+Consumptionbuttoninactivepng.asset
+Consumptionbuttoninactivepng.asset-meta.xml 
+Consumptionbuttoninactivepng1.asset
+Consumptionbuttoninactivepng1.asset-meta.xml
+data_center_greenpng.asset 
+data_center_greenpng.asset-meta.xml
+dataqualitybuttonactivepng.asset
+dataqualitybuttonactivepng.asset-meta.xml
+dataqualitybuttoninactivepng.asset
+dataqualitybuttoninactivepng.asset-meta.xml
+GHGButtonActivepng.asset
+GHGButtonActivepng.asset-meta.xml
+GHGButtonActivepng1.asset
+GHGButtonActivepng1.asset-meta.xml
+dataqualitybuttoninactivepng1.asset
+dataqualitybuttoninactivepng1.asset-meta.xml
+downloadarrowpng.asset
+downloadarrowpng.asset-meta.xml
+downloadarrowpng1.asset
+downloadarrowpng1.asset-meta.xml
+downloadarrowpng2.asset
+downloadarrowpng2.asset-meta.xml
+downloadpng.asset
+downloadpng.asset-meta.xml
+emssionsbuttonactivepng.asset
+emssionsbuttonactivepng.asset-meta.xml
+emssionsbuttoninactivepng.asset
+emssionsbuttoninactivepng.asset-meta.xml
+fleet_truckpng.asset
+fleet_truckpng.asset-meta.xml
+footersustainabilitypng3.asset
+footersustainabilitypng3.asset-meta.xml
+ghgbuttoninactivepng.asset
+ghgbuttoninactivepng.asset-meta.xml
+ghgbuttoninactivepng1.asset
+ghgbuttoninactivepng1.asset-meta.xml
+grasspng.asset
+grasspng.asset-meta.xml
+locationpng3.asset
+locationpng3.asset-meta.xml
+office_greenpng.asset
+office_greenpng.asset-meta.xml
+overviewbuttonactivepng.asset
+overviewbuttonactivepng.asset-meta.xml
+overviewbuttoninactivepng.asset
+overviewbuttoninactivepng.asset-meta.xml
+overviewbuttonpng.asset
+overviewbuttonpng.asset-meta.xml
+overviewbuttonpng1.asset
+overviewbuttonpng1.asset-meta.xml
+renewablebuttonactivepng.asset
+renewablebuttonactivepng.asset-meta.xml
+renewablebuttoninactivepng.asset
+renewablebuttoninactivepng.asset-meta.xml
+windmill_4png3.asset
+windmill_4png3.asset-meta.xml
 
 # profiles
 **/Custom%3A Marketing Profile.profile-meta.xml
